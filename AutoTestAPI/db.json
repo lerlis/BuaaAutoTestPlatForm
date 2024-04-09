@@ -1,0 +1,36 @@
+{
+    "faultcase": [
+        {
+            "CaseID": 189,
+            "Subsystem": "No Fault",
+            "FaultType": "123549",
+            "ControlSequence": "2,1,0.5,1,15;1,1,5;2,10,1.45,10,0;1,1,15",
+            "InterestedLog": {},
+            "TestStatus": "UnFinished",
+            "UniqueIndex": 1419000188
+        },
+        {
+            "CaseID": 190,
+            "Subsystem": "No Fault",
+            "FaultType": "123549",
+            "ControlSequence": "2,1,0.5,1,15;1,1,5;2,10,1.50,10,0;1,1,15",
+            "InterestedLog": {},
+            "TestStatus": "UnFinished",
+            "UniqueIndex": 1419000189
+        }
+    ],
+    "testdata": {
+        "*actuator_outputs_0.csv": [],
+        "*estimator_status_0.csv": [],
+        "*vehicle_command_0.csv": [],
+        "*sensor_combined_0.csv": [],
+        "*vehicle_magnetometer_0.csv": [],
+        "*estimator_attitude_0.csv": [],
+        "*vehicle_gps_position_0.csv": [],
+        "*vehicle_global_position_0.csv": []
+    },
+    "testcase": "all",
+    "PlatFormPath": "E:/PX4PSP",
+    "testbat": "FaultModelSITL",
+    "Vision": "off"
+}
